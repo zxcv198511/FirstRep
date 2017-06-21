@@ -13,13 +13,28 @@ Allows to configure repository
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+run git diff command on staging area and most recent commit
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+experimental features. can save working version.
+
 How do the diagrams help you visualize the branch structure?
+
+helps to see structure. shows not IDs but commit messages.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+commit that includes changes intorduced in 1st branch with changes of branch #2 on top of it. Has branch name as the 1st branch.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Pros:
+fast and easy
+
+Cons:
+errors
